@@ -1,0 +1,2 @@
+[kmp-test]
+command=./build/release/elf/test_kmp.elf

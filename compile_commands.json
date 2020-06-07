@@ -1,0 +1,33 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-w",
+            "-I../log/include",
+            "-I./include",
+            "-O2",
+            "-D_SWVERSION=\"0.0.0.1\"",
+            "-o",
+            "../../build/release/objs/kmp/./src/kmp.o",
+            "src/kmp.c"
+        ],
+        "directory": "/home/zokoo/workspace/repo/string/src/kmp",
+        "file": "src/kmp.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-w",
+            "-I./include",
+            "-O2",
+            "-D_SWVERSION=\"0.0.0.1\"",
+            "-o",
+            "../../build/release/objs/log/./src/log.o",
+            "src/log.c"
+        ],
+        "directory": "/home/zokoo/workspace/repo/string/src/log",
+        "file": "src/log.c"
+    }
+]
